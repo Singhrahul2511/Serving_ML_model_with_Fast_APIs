@@ -1,0 +1,12 @@
+# For model training and data manipulation
+pandas
+scikit-learn==1.4.2
+
+# For the backend API
+fastapi
+uvicorn[standard]
+python-multipart
+
+# For the frontend UI
+streamlit
+requests
