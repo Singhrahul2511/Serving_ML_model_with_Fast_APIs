@@ -23,7 +23,7 @@ This project is a **modular ML web application** designed to predict insurance p
 
 ## 🧱 System Architecture
 
-```mermaid
+```bash
 graph TD
     A[User Input via Streamlit UI] --> B[HTTP POST /predict]
     B --> C[FastAPI Backend]
@@ -33,6 +33,10 @@ graph TD
     F --> G[Prediction Output]
     G --> H[Response Sent as JSON]
     H --> I[Streamlit UI Displays Result]
+    
+    ```
+
+
 🗂️ Project Structure
 insurance_premium_predictor/
 ├── app/                   # FastAPI backend logic
